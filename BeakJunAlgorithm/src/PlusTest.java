@@ -1,6 +1,7 @@
 import java.util.Scanner;
-
-
+/**
+ * @author pooh.explorer
+ */
 public class PlusTest {
 
 	public static void main(String[] args) {

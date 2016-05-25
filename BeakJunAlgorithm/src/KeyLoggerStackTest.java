@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**
+ * @author pooh.explorer
+ */
 public class KeyLoggerStackTest {//성공
 
 	public static void main(String[] args) {

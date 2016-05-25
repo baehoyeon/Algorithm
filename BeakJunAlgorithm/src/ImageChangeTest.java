@@ -1,6 +1,7 @@
 import java.util.Scanner;
-
-
+/**
+ * @author pooh.explorer
+ */
 public class ImageChangeTest {
 	static int inf = 99999; // 무한대 값
 	static boolean[] isVisits;

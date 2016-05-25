@@ -2,7 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-
+/**
+ * @author pooh.explorer
+ */
 public class StringBombTest {
 	public static final String EMPTY_STRING = "FRULA";
 

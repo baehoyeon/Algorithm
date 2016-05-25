@@ -3,7 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
 import java.util.Scanner;
-
+/**
+ * @author pooh.explorer
+ */
 public class NumberKTest {
 
 	public static void main(String[] args) throws IOException {
