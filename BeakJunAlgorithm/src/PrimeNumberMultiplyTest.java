@@ -5,7 +5,9 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
-
+/**
+ * @author pooh.explorer
+ */
 public class PrimeNumberMultiplyTest {
 
 	public static void main(String[] args) throws IOException {

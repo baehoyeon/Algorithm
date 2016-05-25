@@ -1,6 +1,7 @@
 import java.util.Scanner;
-
-
+/**
+ * @author pooh.explorer
+ */
 public class BinomialCoefficient2Test {
 
 	public static void main(String[] args) {

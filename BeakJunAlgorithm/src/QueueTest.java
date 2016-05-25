@@ -1,6 +1,7 @@
 import java.util.Scanner;
-
-
+/**
+ * @author pooh.explorer
+ */
 public class QueueTest {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

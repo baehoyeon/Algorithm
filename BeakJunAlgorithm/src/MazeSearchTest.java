@@ -2,7 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
-
+/**
+ * @author pooh.explorer
+ */
 public class MazeSearchTest {
 	public static void main(String[] args) throws IOException {
 		int[][] adjacencyMatrix;
