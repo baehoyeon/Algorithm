@@ -44,9 +44,8 @@ public class KeyLoggerStackTest {//성공
 		}
 		return resultStack.toString();
 	}
-}
 
-class Stack<E> {
+	static class Stack<E> {
 	Node<E> top;
 	Node<E> bottom;
 
@@ -98,4 +97,5 @@ class Stack<E> {
 		}
 		return bf.toString();
 	}
+}
 }
