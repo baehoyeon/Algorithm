@@ -18,9 +18,10 @@ public class MinimumCostTest {
 		graph = new int[cityCount][cityCount];
 		for(int i=0;i<cityCount;i++){
 			for(int j=0;j<cityCount;j++){
-				graph[i][j] = -1;
+				graph[i][j] = INF;
 			}
-		}
+		} // 그래프를 무한대로 초기화
+		
 		for(int i=0;i<busCount;i++){
 			int r = sc.nextInt()-1;
 			int c = sc.nextInt()-1;
@@ -68,7 +69,6 @@ public class MinimumCostTest {
 			isVisits[nextVertex] = true; // 다음으로 이동할 정점 방문
 
 			for (int j = 0; j < count; j++) {
-				if(graph[nextVertex][j]<0) continue; // 간선이 없다면 시도하지 않는다.
 				int distanceVertex = distance[nextVertex] + graph[nextVertex][j]; // 정점에서 방문한 다른 정점의 거리
 				if (distance[j] > distanceVertex) // 정점에서 다른 정점에서의 거리가 distance 배열보다 적다면 교체해 준다.
 				{
