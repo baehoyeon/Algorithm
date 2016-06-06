@@ -8,7 +8,7 @@ import java.util.LinkedList;
 public class MazeSearchTest {
 	public static void main(String[] args) throws IOException {
 		int[][] adjacencyMatrix;
-		LinkedList<Point> queue;
+		LinkedList<Point> queue = new LinkedList<Point>();
 		BufferedReader bfReader = new BufferedReader(new InputStreamReader(System.in));
 		int rowCount, columnCount;
 		
@@ -17,9 +17,7 @@ public class MazeSearchTest {
 		rowCount = Integer.parseInt(rowCol[0]);
 		columnCount = Integer.parseInt(rowCol[1]);
 		
-		
 		adjacencyMatrix = new int[rowCount][columnCount];
-		queue = new LinkedList<Point>();
 
 		for (int i = 0; i < rowCount; i++) {
 			String column = bfReader.readLine();
