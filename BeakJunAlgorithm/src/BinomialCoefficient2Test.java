@@ -10,7 +10,7 @@ public class BinomialCoefficient2Test {
 
 		N = sc.nextInt();
 		K = sc.nextInt();
-		
+		System.out.println();
 		System.out.println(solve(N,K)+"");
 		
 	}
